@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=UTF-8>
+    <title>Day 3</title>
+    <link rel="stylesheet" type="text/css" href="day3.css">
+  </head>
+  <body>
+    <!-- Chapter 19: Div Element -->
+    <h3>Chapter 19: Div Element</h3>
+    <div>
+      <p>Hello! this is a paragraph</p>
+      <div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem molestiae, pariatur explicabo suscipit nulla, deleniti, quaerat quam beatae incidunt delectus ullam nostrum laboriosam placeat! Molestias eveniet sunt quo voluptas possimus!</p>
+      </div>
+      <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque asperiores unde sequi voluptates perferendis eligendi alias autem ullam qui quidem! Quos vero inventore numquam repellat molestias consequuntur vitae optio sint.</p>
+      </div>
+    </div>
+
+    <!-- Chapter 20: Sectional Element -->
+    <h3>Chapter 20: Sectional Element</H3>
+    <!-- Nav Element -->
+    <ol>
+      <li>
+        <h4>Nav Element</h4>
+        <nav>
+          <a href="#!">Facebook</a>
+          <a href="#!">Facebook</a>
+          <a href="#!">Facebook</a>
+        </nav>
+        or
+        <nav role="navigation">
+          <ul>
+            <li><a href="https://google.com">Google</a></li>
+            <li><a href="https://www.yahoo.com">Yahoo!</a></li>
+            <li><a href="https://www.bing.com">Bing</a></li>
+          </ul>
+        </nav>
+      </li>
+      <li>
+        <h4>Article Elements</h4>
+        <section>
+          <article>
+            <header>
+              <h1>Blog Post</h1>
+              <time datetime=2016-03-13>13th March 2016</time>
+            </header>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae repudiandae fuga cupiditate aut veritatis quam earum libero iure atque. Dicta laborum asperiores vitae et totam, illum alias non esse numquam.</p>
+            <section>
+              <h2>Comment<small> Relating to "Blog post"</small></h2>
+            </section>
+          </article>
+        </section>
+      </li>
+      <li>
+        <h4>Section Element</h4>
+        <article>
+          <header>
+            <h2>Blog Post</h2>
+          </header>
+          <p>An introduction for the post</p>
+          <section>
+            <h3>Chapter 1:</h3>
+            <p>...</p>
+          </section>
+          <section>
+            <h3>Chapter 2:</h3>
+            <p>...</p>
+          </section>
+          <section>
+            <h3>Comments</h3>...
+          </section>
+        </article>
+      </li>
+      <li>
+        <h4>Footer Element</h4>
+        <footer>
+          <p>All rights reserved</p>
+        </footer>
+      </li>
+    </ol>
+  <!-- Chapter 22: Label Element -->
+    <h3>Chapter 22: Label Element</h3>
+    <label>
+      <input type="checkbox" name="Cats">
+      I like Cats!
+    </label>
+    <form action="">
+      <label>
+        I like Cats!
+        <input type="checkbox" name="Cats" >
+      </label>
+      <label for="dogs">i like dog</label>
+      <input type="checkbox" id="dogs">
+    </form>
+    <form id="my-form" action="login.php" method="GET">
+      <label for="username">User Name:</label>
+      <input id="username"type="text" name="username">
+      <label for="pass">Password:</label>
+      <input id="pass" type="password" name="pass" />
+      <input type="submit" name="submit" />
+    </form>
+    <label for="username" form="my-form">User Name:</label>
+
+    <!-- Chapter 23: Output Elements -->
+    <h3>Chapter 23: Output Elements</h3>
+    <form id="form1" name="form1" oninput="out1.value = parseInt(in1.value, 10) + parseInt(in2.value,
+    10)">
+      <fieldset>
+        <legend>Output Example</legend>
+          <input type="number" id="in1" name="in1" value="0">
+        <br/>
+        +
+        <input type="number" id="in2" name="in2" value="0">
+      </fieldset>
+    </form>
+    <output name="out1" for="in1 in2" form="fomr1">0</output>
+
+    <!-- Chapter 25: Media Elements-->
+    <h3>Chapter 25: Media Elements</h3>
+    <audio controls>
+      <source src="audio/Amituofo.mp3" type="audio/mpeg">
+    </audio>
+
+    <video controls width="500" height="auto" poster="37.jpg" style="background: no-repeat">
+      <source src="video/video.mp4" type="video/mp4">
+      <source src="video/video2.mp4" type="video/mp4">
+      Your browers does not support the video tag.
+    </video>
+
+    <!-- <video src="video2.mp4" controls width="500">
+      <track kind="subtitles" src="foo.en.vtt" srclang="en" label="English">
+    </video> -->
+
+    <!-- Chapter 27: Select Element -->
+    <h3>Chapter 27: Select Element</h3>
+    <select name="" value="1">
+      <option value="1">One</option>
+      <option value="2">Two</option>
+      <option value="3" selected>Three</option>
+      <option value="4">Four</option><option value="2">Two</option>
+      <option value="5">Three</option>
+      <option value="4">Four</option><option value="2">Two</option>
+      <option value="3">Three</option>
+      <option label="Some Option" value="Some Option">
+      <option value="option1">Some Option</option>
+    </select>
+
+    <select multiple>
+      <option value="option1" selected>Some option</option>
+      <option value="option2" selected>Some option</option>
+    </select>
+
+    <!-- Option Group -->
+    <select name="" id="">
+      <option value="milk">Milk</option>
+      <optgroup label="Fruits">
+        <option value="">Bananas</option>
+        <option value="">Strawbeerries</option>
+      </optgroup>
+      <optgroup label="Vegetables">
+        <option value="">Carrot</option>
+        <option value="">Zucchini</option>
+      </optgroup>
+    </select>
+
+    <!-- DataList  -->
+    <input list="Languages">
+    <datalist id="Languages">
+      <option value="PHP">
+      <option value="Python">
+      <option value="JvScript">
+      <option value="Ruby">
+      <option value="NodeJS">
+    </datalist>
+  </body>
+</html>
