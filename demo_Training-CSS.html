@@ -98,19 +98,21 @@
       input{
         display: flex;
         width: 250px;
-        height: 25px;
+        height: 30px;
         padding: 5px;
         margin: 10px;
         border-radius: 5px;
-        border: 1px solid black;
-
-
+        border: none;
+        box-sizing: border-box;
       }
       input:focus{
         outline: none;
       }
+      input:hover{
+        border: 1px solid black;
+      }
       input[type="text"]:hover{
-        background-image: linear-gradient(15deg, rgba(255, 0, 0, 0.7) , rgba(255, 255, 0, 0.7), rgba(0, 0, 255, 0.7));
+        background-image: linear-gradient(90deg, #2195f36c , #e91e6269, #c4d41a65, #ff990067, #c23ada67);
         /* background-image: 400%; */
       }
       input[type="submit"]{
@@ -152,6 +154,16 @@
         <input type="submit" value="Send">
       </fieldset>
     </form>
+    <div class="box-1">
+      <div class="box-item box-item-1" id="">Box 1</div>
+      <div class="box-item box-item-2" id="">Box 2</div>
+      <div class="box-item box-item-3" id="">Box 3</div>
+      <div class="box-item box-item-4" id="">Box 4</div>
+      <div class="box-item box-item-5" id="">Box 5</div>
+    </div>
 
+    <div class=box-2>
+      Box
+    </div>
   </body>
 </html>
