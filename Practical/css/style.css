@@ -68,6 +68,9 @@ a {
 .color--blue {
   color: #3040c4;
 }
+.color--black {
+  color: black;
+}
 .nav_mgin {
   margin-right: 80px;
 }
@@ -442,6 +445,20 @@ header {
   text-align: center;
   width: 750px;
 }
+.reviews__dots{
+  margin-top: 40px;
+}
+.reviews__dot div{
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background:#2B292D;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+.reviews__dot div:hover{
+  background: #3142C5;
+}
 
 /* Content__hiring */
 .content__hiring {
@@ -474,7 +491,7 @@ header {
   box-sizing: border-box;
   transition: 1s;
 }
-.hiring__items a {
+.hiring__items a:nth-child(1) {
   font-weight: bold;
   width: 410px;
   color: black;
@@ -529,6 +546,10 @@ footer {
   height: 50px;
   /* padding: 0; */
 }
+.footer__logo--background{
+  background: linear-gradient(137.55deg, #3142C6 4.08%, #AF61D1 100%);
+}
+
 .footer__intro {
   flex-grow: 3;
 }
