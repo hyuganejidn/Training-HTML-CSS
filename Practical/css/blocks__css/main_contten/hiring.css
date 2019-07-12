@@ -31,6 +31,6 @@
   box-shadow: 0px 11px 55px rgba(0, 0, 0, 0.07),
   0px 13px 18px rgba(0, 0, 0, 0.15);
 }
-.hiring__items:hover a, .hiring__items:hover span {
+.hiring__items:hover a, .hiring__items:hover span, .hiring__items:hover i {
   color: white;
 }
