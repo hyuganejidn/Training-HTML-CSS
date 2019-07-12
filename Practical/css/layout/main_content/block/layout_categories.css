@@ -1,4 +1,7 @@
 .block__categories {
-  padding: 110px 130px;
+  margin:0 auto;
+  padding: 110px 0;
+}
+.block__categories--color{
   background-color: #edf8fb;
 }

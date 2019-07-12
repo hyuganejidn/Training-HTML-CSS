@@ -1,4 +1,5 @@
 .block__selector {
   display: flex;
-  padding: 70px 130px;
+  margin: 0 auto;
+  padding: 70px 0;
 }

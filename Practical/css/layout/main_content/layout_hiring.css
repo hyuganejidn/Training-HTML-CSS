@@ -3,6 +3,9 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 100px 325px;
+  margin: 0 auto;
+  padding: 100px 0px;
+}
+.border_top{
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }

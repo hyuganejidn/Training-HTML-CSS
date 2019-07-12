@@ -1,5 +1,9 @@
 .content__cta {
   display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 75px 0;
+}
+.content__cta--color{
   background: #f4f5f7;
-  padding: 75px 224px;
 }

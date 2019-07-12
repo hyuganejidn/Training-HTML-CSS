@@ -1,4 +1,6 @@
 .header__introduce {
+  display: flex;
+  justify-content: space-between;
   position: relative;
   margin-top: 80px;
 }
@@ -9,7 +11,7 @@
 .header__introduce img {
   position: absolute;
   top: 0;
-  right: 0;
+  right: -105px;
 }
 .header__title {
   width: 754px;

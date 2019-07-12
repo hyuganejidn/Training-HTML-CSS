@@ -1,3 +1,8 @@
+.width_page{
+  width: 1140px;
+}
+
+
 .font__size-14-22 {
   font-size: 14px;
   line-height: 22px;
@@ -118,7 +123,7 @@
   margin-right: 20px;
 }
 .mr_r-126{
-  margin-right: 126px;
+  margin-right: 130px;
 }
 .mr_r-121{
   margin-right: 121px;

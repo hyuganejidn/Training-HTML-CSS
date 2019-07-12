@@ -1,6 +1,9 @@
 .block__quote {
   display: flex;
   justify-content: space-between;
+  margin: 0 auto;
+  padding: 110px 0;
+}
+.block__quote--color{
   background: rgba(252, 240, 227, 0.4);
-  padding: 110px 130px 110px 0;
 }
