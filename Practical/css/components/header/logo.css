@@ -1,8 +1,8 @@
-.header__logo {
+.logo {
   display: flex;
   align-items: center;
 }
-.header__logo img {
+.logo img {
   background-color: white;
   padding: 8px;
   border-radius: 14px;
@@ -10,10 +10,8 @@
   height: 60px;
   box-sizing: border-box;
 }
-.header__name {
+.logo__name {
   display: inline-block;
   margin: auto 10px;
 }
-.header__menu {
-  display: inline-block;
-}
+

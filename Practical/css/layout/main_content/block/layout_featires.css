@@ -1,0 +1,5 @@
+.block__featiries {
+  display: flex;
+  flex-direction: column;
+  padding: 110px 130px;
+}

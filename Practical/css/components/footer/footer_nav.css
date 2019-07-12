@@ -1,0 +1,13 @@
+
+.footer__nav {
+  display: flex;
+}
+.nav__list {
+  padding: 0;
+}
+.nav__list a {
+  color: rgba(43, 41, 45, 0.6);
+}
+.nav__list li {
+  margin: 10px 0;
+}

@@ -1,0 +1,10 @@
+.content__intro {
+  display: flex;
+  justify-content: space-between;
+  background: #f4f5f7;
+  padding: 77px 130px;
+}
+.intro__content {
+  width: 555px;
+  height: 100px;
+}

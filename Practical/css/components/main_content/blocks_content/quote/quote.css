@@ -1,0 +1,26 @@
+.quote__img {
+  text-align: center;
+  margin: 0 190px;
+}
+.quote__info {
+  width: 520px;
+  padding: 30px;
+  background-color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05), 0px 1px 3px rgba(0, 0, 0, 0.1),
+    inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  border-bottom: 4px solid #0185d0;
+  box-sizing: border-box;
+}
+.quote__about {
+  width: 460px;
+}
+.quote__about h3 {
+  color: #f1592b;
+}
+.quote__avatar {
+  width: 40px;
+}
+.quote__info--display  {
+  display: flex;
+  align-items: center;
+}

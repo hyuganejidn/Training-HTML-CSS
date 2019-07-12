@@ -1,0 +1,6 @@
+.block__quote {
+  display: flex;
+  justify-content: space-between;
+  background: rgba(252, 240, 227, 0.4);
+  padding: 110px 130px 110px 0;
+}

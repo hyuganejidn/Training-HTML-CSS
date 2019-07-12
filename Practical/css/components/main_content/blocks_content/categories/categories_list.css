@@ -1,4 +1,8 @@
-
+.categories__list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 130px;
+}
 .categories_items {
   width: 265px;
   height: 300px;

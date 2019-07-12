@@ -1,0 +1,19 @@
+.footer__social {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 130px;
+  border-top: 1px solid rgba(43, 41, 45, 0.1);
+}
+.footer__social li {
+  display: inline-block;
+}
+.footer__license a {
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(43, 41, 45, 0.6);
+  margin: 10px;
+}
+.social__icon span {
+  margin: 10px;
+  opacity: 0.6;
+}

@@ -1,0 +1,13 @@
+.footer__logo {
+  height: 50px;
+}
+.footer__logo--background {
+  background: linear-gradient(137.55deg, #3142c6 4.08%, #af61d1 100%);
+}
+
+.footer__intro {
+  width: 360px;
+}
+.footer__intro--width {
+  color: rgba(43, 41, 45, 0.6);
+}

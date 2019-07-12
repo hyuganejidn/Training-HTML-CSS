@@ -5,11 +5,12 @@
   position: absolute;
   visibility: hidden;
   top: 40px;
-  right: -40px;
-  width: 635px;
+  right: -50px;
+  width: 614px;
   background-color: white;
   border-radius: 8px;
   padding: 15px;
+  box-shadow: 0px 11px 55px rgba(0, 0, 0, 0.07), 0px 29px 45px rgba(0, 0, 0, 0.08), 0px 13px 18px rgba(0, 0, 0, 0.15);
   z-index: 10;
 }
 
@@ -17,7 +18,7 @@
   content: "";
   position: absolute;
   top: -20px;
-  right: 70px;
+  right: 85px;
   border-left: 15px solid transparent;
   border-right: 15px solid transparent;
   border-bottom: 20px solid white;
@@ -27,8 +28,9 @@
 }
 .popup_items {
   list-style-type: none;
-  width: 270px;
+  width: 262px;
   margin: 15px;
+  box-sizing: none;
 }
 .popup_items h4{
   margin-bottom: 16px;

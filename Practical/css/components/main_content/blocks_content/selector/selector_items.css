@@ -1,7 +1,3 @@
-.selector_sub > h4 {
-  color: #009b4d;
-}
-
 .selector_items {
   display: flex;
   align-items: stretch;

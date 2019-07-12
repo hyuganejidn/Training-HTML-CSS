@@ -1,3 +1,6 @@
+.header__menu {
+  display: inline-block;
+}
 .header__menu > ul {
   margin: 0 46px 0 0;
 }

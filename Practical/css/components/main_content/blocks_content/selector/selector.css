@@ -1,0 +1,10 @@
+.selector_sub {
+  display: flex;
+  flex-direction: column;
+  width: 460px;
+  margin-right: 125px;
+}
+.selector_sub > h4 {
+  color: #009b4d;
+}
+
