@@ -20,10 +20,11 @@
 .hiring__items a:nth-child(1) {
   font-weight: bold;
   width: 410px;
-  color: black;
   text-align: start;
 }
 .hiring__items span {
+  text-align: start;
+  width: 232px;
   color: #2b292d;
 }
 .hiring__items:hover {
