@@ -4,10 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
     <title>Foundation</title>
-
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/blocks__css/reset.css">
+    <link rel="stylesheet" href="css/blocks__css/text_format.css" text="text/css" >
+    <link rel="stylesheet" href="css/blocks__css/header/logo.css" text="text/css" >
+    <link rel="stylesheet" href="css/blocks__css/header/menu.css" text="text/css" >
+    <link rel="stylesheet" href="css/blocks__css/header/popup.css" text="text/css" >
+    <link rel="stylesheet" href="css/blocks__css/header/introduce.css" text="text/css" >
+    <link rel="stylesheet" href="css/blocks__css/header/buttom.css" text="text/css" >
+    <link rel="stylesheet" href="css/blocks__css/main_contten/intro.css" text="text/css" >
+    <link rel="stylesheet" href="css/blocks__css/main_contten/logos.css" text="text/css" >
+    <link rel="stylesheet" href="css/blocks__css/main_contten/blocks/selector.css" text="text/css" >
+    <link rel="stylesheet" href="css/blocks__css/main_contten/blocks/quote.css" text="text/css" >
+    <link rel="stylesheet" href="css/blocks__css/main_contten/blocks/featires.css" text="text/css" >
+    <link rel="stylesheet" href="css/blocks__css/main_contten/blocks/categories.css" text="text/css" >
+    <link rel="stylesheet" href="css/blocks__css/main_contten/hiring.css" text="text/css" >
+    <link rel="stylesheet" href="css/blocks__css/main_contten/reviews.css" text="text/css" >
+    <link rel="stylesheet" href="css/blocks__css/main_contten/cta.css" text="text/css" >
+    <link rel="stylesheet" href="css/blocks__css/footer/footer.css" text="text/css" >
     <link rel="stylesheet" href="css/style.css" text="text/css" >
 </head>
 <body>
@@ -15,13 +31,11 @@
     <header>
       <div class="header">
         <div class="header__logo">
-          <a href="#!">
-            <img src="./icons/logo.svg" alt="logos">
-          </a>
+          <a href="#!"><img src="./icons/logo.svg" alt="logos"></a>
           <a href="#!" class="color--black">
             <div class="header__name">
-              <h4>Foundation</h4>
-              <p>Startup laning teamplate</p>
+              <h4 class="font__size-20-25 ">Foundation</h4>
+              <p class="font__size-20-25 color">Startup leaning teamplate</p>
             </div>
           </a>
         </div>
@@ -30,23 +44,24 @@
             <ul>
               <li class="header__items"><a href="#!">Home</a></li>
               <li class="header__items"><a href="#!">Stories</a></li>
-              <li class="header__items header__items--position"><a href="#!">Library <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+              <li class="header__items header__items--position">
+                <a href="#!">Library <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
                 <div class="header__items--hover">
                   <div class="iteams__hover">
-                    <ul class="header__popup">
-                      <li class="header__popup_items">
+                    <ul class="header__popup font__size-22-26">
+                      <li class="popup_items ">
                         <a href="#!"><h4>Acquire Users</h4></a>
                         <p>Work with the tools and services you use.</p>
                       </li>
-                      <li class="header__popup_items">
+                      <li class="popup_items">
                         <a href="#!"><h4>Engage Customers</h4></a>
                         <p>Get started with our simple snipet of Javascript.</p>
                       </li>
-                      <li class="header__popup_items">
+                      <li class="popup_items">
                         <a href="#!"><h4>Book Appointments</h4></a>
-                        <p>we offer measures like 2FA to ensure the satefy.</p>
+                        <p>We offer measures like 2FA to ensure the satefy.</p>
                       </li>
-                      <li class="header__popup_items">
+                      <li class="popup_items">
                         <a href="#!"><h4>Generate Leads</h4></a>
                         <p>Becomes a better disign by learning this course.</p>
                       </li>
@@ -62,10 +77,10 @@
 
       <div class="header__introduce">
         <div class="header__intro">
-          <h2 class="header__title">Building stunning websites</h2>
-          <p class="header__about font-size ">Create line segments and target the right people for messager based on their behaviors</p>
-          <button class="header__button">Get Started</button>
-          <button class="header__button header__button--color ">Learn More</button>
+          <h2 class="header__title mr_bt-30 font__size-80-78">Building stunning websites & app</h2>
+          <p class="header__about font__size-24-34 mr_bt-58">Create line segments and target the right people for messager based on their behaviors</p>
+          <button class="header__button header__button--mrr">Get Started</button>
+          <button class="header__button header__button--color header__button--mrl">Learn More</button>
         </div>
         <img src="./images/intro.png" alt="">
       </div>
@@ -74,210 +89,227 @@
     <div class="content">
       <div class="content__intro">
         <div class="intro__content">
-          <h4 class="font-size">What is it about?</h4>
-          <p class="font-size">Building a website for a startup that looks amazing is not a rocket science anymore.</p>
+          <h4 class="font__size-22-32 mr_bt-16">What is it about?</h4>
+          <p class="font__size-22-32">Building a website for a startup that looks amazing is not a rocket science anymore.</p>
         </div >
         <div class="intro__content">
-          <h4 class="font-size">Who is it for?</h4>
-          <p class="font-size">Startups, small companies and teams, entrepreneurs and web developers.</p>
+          <h4 class="font__size-22-32 mr_bt-16">Who is it for?</h4>
+          <p class="font__size-22-32">Startups, small companies and teams, entrepreneurs and web developers.</p>
         </div>
       </div>
       <div class="content__logos">
-        <img class="logos__theny" src="./icons/The_ny.png" alt="">
-        <img class="logos__forbes" src="./icons/forbes-logo.png" alt="">
-        <img class="logos__apple"src="./icons/apple.png" alt="">
-        <img class="logos__mashable" src="./icons/mashable.png" alt="">
-        <img class="logos__wsj" src="./icons/wsj_logo_short.svg" alt="">
-        <img class="logos__google" src="./icons/google.png" alt="">
+        <a href="#!"><img class="logos__theny" src="./icons/Bitmap (1).svg" alt=""></a>
+        <a href="#!"><img class="logos__forbes" src="./icons/Bitmap (2).svg" alt=""></a>
+        </a><a href="#!"><img class="logos__apple"src="./icons/Bitmap (3).svg" alt=""></a>
+        <a href="#!"><img class="logos__mashable" src="./icons/Bitmap (4).svg" alt=""></a>
+        <a href="#!"><img class="logos__wsj" src="./icons/Bitmap (5).svg" alt=""></a>
+        <a href="#!"><img class="logos__google" src="./icons/Bitmap (6).svg" alt=""></a>
       </div>
       <div class="content__block">
-        <div class="block__selector">
+        <div class="block__selector">.
           <div class="selector">
-              <div class="selector_sub">
-                <h4 class="font-size-22-28 mr_bt-20">Features</h4>
-                <h1 class="font-size-56 mr_bt">Easily find leads and customers</h1>
-                <p class="font-size-24 mr_bt-50">Send one-off and automated email, push, and in-app messages to people. Create better stories.</p>
-                <div class="selector_items">
-                  <img src="./icons/compass.svg" alt="">
-                  <h4 class=font-size-22-28><a href="#!">Acquire new customers</a></h4>
-                  <p class="font-size-18-26 mr_bt-20">Everything you need to start building – including open-source code, documentation.</p>
-                </div>
-                <div class="selector_items">
-                  <img src="./icons/templ.svg" alt="">
-                  <h4 class=font-size-22-28><a href="#!">Engage users</a></h4>
-                </div>
-                <div class="selector_items">
-                  <img src="./icons/phonebook.svg" alt="">
-                  <h4 class=font-size-22-28><a href="#!">Develop across platforms</a></h4>
-                </div>
-              </div>
+            <div class="selector_sub">
+              <h4 class="font__size-22-28 mr_bt-24">Features</h4>
+              <h1 class="font__size-56 mr_bt-30">Easily find leads and customers</h1>
+              <p class="font__size-24-34 mr_bt-44 pd-r ">Send one-off and automated email, push, and in-app messages to people. Create better stories.</p>
+              <ul>
+                <li>
+                  <div class="selector_items">
+                    <img src="./icons/compass.svg" alt="">
+                    <h4 class="font__size-22-26 mr_l-15"><a href="#!">Acquire new customers</a></h4>
+                  </div>
+                  <p class="font__size-18-26 mr_bt-20 pd_r-30 mr_t-22">Everything you need to start building – including open-source code, documentation.
+                  </p>
+                  <div class="border_btm mr_t-22 mr_bt-20"></div>
+                </li
+                <li >
+                  <div class="selector_items">
+                    <img src="./icons/templ.svg" alt="">
+                    <h4 class="font__size-22-26 mr_l-15"><a href="#!">Engage users</a></h4>
+                  </div>
+                  <div class="border_btm mr_t-22 mr_bt-20"></div>
+                </li>
+                <li>
+                  <div class="selector_items">
+                    <img src="./icons/phonebook.svg" alt="">
+                    <h4 class="font__size-22-26 mr_l-15"><a href="#!">Develop across platforms</a></h4>
+                  </div>
+                  <div class="border_btm mr_t-22 mr_bt-20"></div>
+                </li>
+              </ul>
+            </div>
           </div>
           <img class="selector__img" src="http://lorempixel.com/g/800/450/" alt="">
         </div>
         <div class="block__quote">
           <div class="quote__img">
             <img src="./images/qoute.svg" alt="">
-            <p class="font-size-14"l>Connect with customers and grow faster</p>
+            <p class="font__size-14-22">Connect with customers and grow faster</p>
           </div>
           <div class="quote__intro">
             <div class="quote__about">
-              <h3 class="font-size-22-28 mr_bt-20 ">Team Inbox</h4>
-              <h1 class="font-size-56 mr_bt">Manage conversations</h1>
-              <p class="font-size-24 mr_bt-50">One place to manage and respond to all conversations with leads and users. Receive messages from leads.</p>
+              <h3 class="font__size-22-34 mr_bt-24 ">Team Inbox</h4>
+              <h1 class="font__size-56 mr_bt-30">Manage conversations</h1>
+              <p class="font__size-24-34 mr_bt-44">One place to manage and respond to all conversations with leads and users. Receive messages from leads.</p>
             </div>
             <div class=quote__info>
-              <p class="mr_bt">“Great widgets. Great selection. Great design and <span class="style_bold">easy to implement</span>easy to implement. Definitely a huge time saver for a web developer!”</p>
+              <p class="font__size-20-28 mr_bt-26">“Great widgets. Great selection. Great design and <span class="style_bold">easy to implement</span> easy to implement. Definitely a huge time saver for a web developer!”</p>
               <div class="quote__info--display">
-                <img class="quote__avatar" src="./images/defaultAvatar.png" alt="">
-                <!-- <p class="font-size-16"><span class="style_bold">Viella Malkovich</span>Creative Director at Johnson</p> -->
-                <span class="font-size-16">
-                  <p class="style_bold mr_0">Viella Malkovich</p>
+                <img class="quote__avatar mr_r-10" src="./images/defaultAvatar.png" alt="">
+                <span class="font__size-16">
+                  <p class="style_bold mr_bt-5">Viella Malkovich</p>
                   <span class="color">Creative Director at Johnson</span>
                 </span>
               </div>
-
-
             </div>
           </div>
         </div>
         <div class="block__featiries">
           <div class="featiries__content">
             <div class="featiries__intro">
-              <h3 class="featiries__title font-size-22-28 mr_bt-20">Communicate Better</h3>
-              <h1 class="font-size-56 mr_bt">Built for busy small teams</h1>
-              <p class="font-size-24 mr_bt-50">Three products that can be used independently or combined together for your company’s needs.</p>
+              <h3 class="featiries__title font__size-22-34 mr_bt-24">Communicate Better</h3>
+              <h1 class="font__size-56 mr_bt-30">Built for busy small teams</h1>
+              <p class="font__size-24-34 mr_bt-39">Three products that can be used independently or combined together for your company’s needs.</p>
               <button class="header__button">Get Started</button>
             </div>
             <div class="featiries__img">
               <img src="./images/ouch.png" alt="">
-              <p class="font-size-14">A better way to acquire new users</p>
+              <p class="font__size-14">A better way to acquire new users</p>
             </div>
           </div>
           <div class="featiries__list">
-            <div class="font-size-18-26">
-              <p class="mr_bt"><span class="style_bold">Subscriptions.</span> Foundation works with the tools and services you already use every day.</p>
-              <a class="color--blue" href="#!"><h4 class="mr_0">Learn more about subscriptions</h4></a>
+            <div class="font__size-18-26">
+              <p class="mr_bt-16"><span class="style_bold">Subscriptions.</span>Foundation works with the tools and services you already use every day.</p>
+              <a class="color--blue font__size-18-26 mr_bt-16" href="#!"><h4>Learn more about subscriptions</h4></a>
             </div>
-            <div class="font-size-18-26">
-              <p class="mr_bt"><span class="style_bold">Felxible Hours.</span> Get started with our simple snippet of JavaScript or easy to install SDKs for iOS and Android.</p>
+            <div class="font__size-18-26">
+              <p class="mr_bt-16"><span class="style_bold">Felxible Hours.</span> Get started with our simple snippet of JavaScript or easy to install SDKs for iOS and Android.</p>
               <a class="color--blue" href="#!"><h4 class="mr_0">Get more info about hours</h4></a>
             </div>
-            <div class="font-size-18-26">
-              <p class="mr_bt"><span class="style_bold">Fast Communication.</span>We offer measures like 2FA and SSO to ensure the safety of your data.</p>
+            <div class="font__size-18-26">
+              <p class="mr_bt-16"><span class="style_bold">Fast Communication.</span>We offer measures like 2FA and SSO to ensure the safety of your data.</p>
               <a class="color--blue" href="#!"><h4 class="mr_0">Communication guidelines</h4></a>
             </div>
           </div>
         </div>
         <div class="block__categories">
           <div class="categories_intro">
-            <h4 class="font-size-22-28">Engage Visitors</h4>
-            <h1 class="font-size-56">Understand your audience</h1>
-            <p class="font-size-24">Early stage company? Eligible applicants get all of our products for just $49 a month.</p>
-            <button class="header__button">Get Started</button>
-            <button class="header__button header__button--color ">Learn More</button>
+            <h4 class="font__size-22-34 mr_bt-24">Engage Visitors</h4>
+            <h1 class="font__size-56 mr_bt-30">Understand your audience</h1>
+            <p class="font__size-24-34 mr_bt-34">Early stage company? Eligible applicants get all of our products for just $49 a month.</p>
+            <button class="header__button header__button--mrr">Get Started</button>
+            <button class="header__button header__button--color header__button--mrl">Learn More</button>
           </div>
-          <div class="categories__list">
-            <div class="categories_items">
-              <img src="./images/ouch1.svg" alt="">
-              <h3 class="font-size-22-28 mr_0">Deverloper</h3>
-            </div>
-            <div class="categories_items">
-              <img src="./images/ouch2.svg" alt="">
-              <h3 class="font-size-22-28 mr_0">Entertainment</h3>
-            </div>
-            <div class="categories_items">
-              <img src="./images/ouch3.svg" alt="">
-              <h3 class="font-size-22-28 mr_0">Athletes</h3>
-            </div>
-            <div class="categories_items">
-              <img src="./images/ouch4.svg" alt="">
-              <h3 class="font-size-22-28 mr_0">Creator</h3>
-            </div>
-          </d>
-        </div>
+          <ul class="categories__list">
+            <li class="categories_items">
+              <a href="#!"><img src="./images/ouch1.svg" alt="">
+                <h3 class="font__size-22-28 mr_0">Deverloper</h3></a>
+            </li>
+            <li class="categories_items">
+              <a href="#!">
+                <img src="./images/ouch2.svg" alt="">
+                <h3 class="font__size-22-28 mr_0">Entertainment</h3>
+              </a>
+            </li>
+            <li class="categories_items">
+              <a href="#!">
+                <img src="./images/ouch3.svg" alt="">
+                <h3 class="font__size-22-28 mr_0">Athletes</h3>
+              </a>
+            </li>
+            <li class="categories_items">
+              <a href="#!">
+                <img src="./images/ouch4.svg" alt="">
+                <h3 class="font__size-22-28 mr_0">Creator</h3>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
       <div class="content__logos">
-        <img class="logos__theny" src="./icons/The_ny.png" alt="">
-        <img class="logos__forbes" src="./icons/forbes-logo.png" alt="">
-        <img class="logos__apple"src="./icons/apple.png" alt="">
-        <img class="logos__mashable" src="./icons/mashable.png" alt="">
-        <img class="logos__wsj" src="./icons/wsj_logo_short.svg" alt="">
-        <img class="logos__google" src="./icons/google.png" alt="">
+        <a href="#!"><img class="logos__theny" src="./icons/Bitmap (1).svg" alt=""></a>
+        <a href="#!"><img class="logos__forbes" src="./icons/Bitmap (2).svg" alt=""></a>
+        </a><a href="#!"><img class="logos__apple"src="./icons/Bitmap (3).svg" alt=""></a>
+        <a href="#!"><img class="logos__mashable" src="./icons/Bitmap (4).svg" alt=""></a>
+        <a href="#!"><img class="logos__wsj" src="./icons/Bitmap (5).svg" alt=""></a>
+        <a href="#!"><img class="logos__google" src="./icons/Bitmap (6).svg" alt=""></a>
       </div>
       <div class="content__reviews">
-        <h3 class="reviews__title font-size-24">Trusted by the world’s most innovative businesses – big and small</h3>
-        <p class="reviews__content font-size-24">“Comprehensive set of startup tools for all imaginable entrepreneurial needs. Create landing pages, send emails, find freelancers. Perfect for sales, marketing, and support”</p>
-        <h4 class="reviews__title-2">Viella Malkovich</h4>
-        <span class="color">Creative Director at Johnson</span>
-        <div class="reviews__dots">
+        <h3 class="reviews__title font__size-24-30 mr_bt-28">Trusted by the world’s most innovative businesses – big and small</h3>
+        <p class="reviews__content font__size-24-30 mr_bt-34">“Comprehensive set of startup tools for all imaginable entrepreneurial needs. Create landing pages, send emails, find freelancers. Perfect for sales, marketing, and support”</p>
+        <h4 class="mr_bt-16">Viella Malkovich</h4>
+        <span class="color mr_bt-39">Creative Director at Johnson</span>
+        <div class="">
           <a href="#!" class="reviews__dot"><div></div></a>
           <a href="#!" class="reviews__dot"><div></div></a>
           <a href="#!" class="reviews__dot"><div></div></a>
         </div>
       </div>
       <div class="content__hiring">
-        <h1 class="font-size-56 hiring__title">We’re hiring</h1>
-        <p class="font-size-24 hiring__about">We’re a team of lifelong learners. We’re equal parts left and right brained.</p>
+        <h1 class="font__size-56 hiring__title mr_bt-20">We’re hiring</h1>
+        <p class="font__size-24-34 hiring__about mr_bt-28">We’re a team of lifelong learners. We’re equal parts left and right brained.</p>
         <button class="header__button" type="button">More about Company</button>
         <ul class="hiring__list">
           <li class="hiring__items">
-            <a class="font-size-22-28" href="#!">Front-End Developer</a>
-            <span class="font-size-18-26">Los Angeles / Remote</span>
+            <a class="font__size-22-28" href="#!">Front-End Developer</a>
+            <span class="font__size-18-26">Los Angeles / Remote</span>
             <a href="#!"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
           </li>
           <li class="hiring__items">
-            <a class="font-size-22-28" href="#!">Community Manager</a>
-            <span class="font-size-18-26">New York / Full-Time</span>
+            <a class="font__size-22-28" href="#!">Community Manager</a>
+            <span class="font__size-18-26">New York / Full-Time</span>
             <a href="#!"><i class="fa fa-chevron-right" aria-hidden="true"></i>
             </a>
           </li>
           <li class="hiring__items">
-            <a class="font-size-22-28" href="#!">UX/UI Designer</a>
-            <span class="font-size-18-26">New York / Full-Time</span>
+            <a class="font__size-22-28" href="#!">UX/UI Designer</a>
+            <span class="font__size-18-26">New York / Full-Time</span>
             <a href="#!"><i class="fa fa-chevron-right" aria-hidden="true"></i>
             </a>
           </li>
         </ul>
       </div>
       <div class="content__cta">
-        <img src="./images/cta.png" alt="">
+        <img class="mr_r-121"src="./images/cta.png" alt="">
         <div class="cta__content">
-          <h2 class="font-size-40 mr_0">Start your free trial.</h2>
-          <p class="font-size">Get notified about company updates, news and blog posts. We hate spam.</p>
-          <form action="">
+          <h2 class="font__size-40-40 mr_bt-12">Start your free trial.</h2>
+          <p class="font__size-22-32 mr_bt-26">Get notified about company updates, news and blog posts. We hate spam.</p>
+          <form action="" class="mr_bt-12">
             <input type="email" name="" id="" placeholder="Enter your email">
             <button class="header__button" type="button">Get Started</button>
           </form>
-          <p class="font-size-14">Free 14-day trial · Easy setup · Cancel any time. Check out <a style="color:blue"href="">Terms of Use.</a></p>
+          <p class="font__size-14-22">Free 14-day trial · Easy setup · Cancel any time. Check out <a style="color:blue"href="">Terms of Use.</a></p>
         </div>
       </div>
     </div>
 
     <footer>
       <div class="footer">
-        <div class="footer__intro">
-          <div class="header__logo">
+        <div class="footer__intro mr_r-126">
+          <div class="header__logo mr_bt-26">
             <a href="#!">
               <img class="footer__logo--background"src="./icons/logo1.svg" alt="logos">
             </a>
             <a href="#!" class="color--black">
               <div class="header__name">
-                <h4>Foundation</h4>
-                <p>Startup laning teamplate</p>
+                <h4 class="font__size-20-25 ">Foundation</h4>
+                <p class="font__size-20-25 color">Startup leaning teamplate</p>
               </div>
             </a>
           </div>
-          <p class="font-size-18-26 footer__intro--width">Foundation is a website template for startups and small teams. It helps to build a website in no time.</p>
-          <a href="#!">
-            <img class="footer__logo" src="./icons/apple_store.svg" alt="">
-          </a>
-          <a href="#!"><img class="footer__logo" src="./icons/get_ggplay.png" alt=""></a>
+          <p class="font__size-18-26 footer__intro--width mr_bt-24">Foundation is a website template for startups and small teams. It helps to build a website in no time.</p>
+          <div class="mr_bt-44">
+            <a href="#!">
+                <img class="footer__logo" src="./icons/apple_store.svg" alt="">
+              </a>
+              <a href="#!"><img class="footer__logo" src="./icons/get_ggplay.png" alt=""></a>
+          </div>
+
         </div>
         <div class="footer__nav">
-          <div class="nav__product nav_mgin">
-            <h4 class="nav__title font-size-22-28">Product</h4>
-            <ul class="nav__list font-size-18">
+          <div class="nav__product mr_r-80">
+            <h4 class="font__size-22-28 mr_bt-20">Product</h4>
+            <ul class="nav__list font__size-18-30">
               <li><a href="#!">Acquire Users</a></li>
               <li><a href="#!">Content Marketing</a></li>
               <li><a href="#!">Website Templates</a></li>
@@ -285,13 +317,13 @@
               <li><a href="#!">Virtual Inbox</a></li>
             </ul>
           </div>
-          <div class="nav__company nav_mgin ">
-            <h4 class="nav__title font-size-22-28">Company</h4>
-            <ul class="nav__list font-size-18 color">
-              <li><a href="#!">About Foundation</li></a>
-              <li><a href="#!">Brand Guidelines</li></a>
-              <li><a href="#!">Press Kit</li></a>
-              <li><a href="#!">Support</li></a>
+          <div class="nav__company mr_r-80 ">
+            <h4 class="nav__title font__size-22-28 mr_bt-20">Company</h4>
+            <ul class="nav__list font__size-18-30 color">
+              <li><a href="#!">About Foundation</a></li>
+              <li><a href="#!">Brand Guidelines</a></li>
+              <li><a href="#!">Press Kit</a></li>
+              <li><a href="#!">Support</a></li>
             </ul>
           </div>
         </div>

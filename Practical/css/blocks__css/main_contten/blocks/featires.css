@@ -1,0 +1,22 @@
+
+.featiries__intro {
+  width: 460px;
+}
+.featiries__title {
+  color: #0189d1;
+}
+.featiries__img {
+  margin-right: 80px;
+}
+.featiries__img p {
+  text-align: center;
+}
+.featiries__list {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-self: flex-end;
+}
+.featiries__list div {
+  width: 360px;
+}

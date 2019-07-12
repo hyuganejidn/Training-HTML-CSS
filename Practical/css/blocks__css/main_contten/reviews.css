@@ -1,0 +1,18 @@
+.reviews__title {
+  color: #3142c6;
+}
+.reviews__content {
+  text-align: center;
+  width: 750px;
+}
+.reviews__dot div {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: rgba(43, 41, 45, 0.2);
+  border-radius: 50%;
+  margin: 0 10px;
+}
+.reviews__dot div:hover {
+  background: #3142c5;
+}

@@ -1,0 +1,11 @@
+.popup_items {
+  list-style-type: none;
+  width: 262px;
+  margin: 15px;
+}
+.popup_items h4{
+  margin-bottom: 16px;
+}
+.popup_items h4:hover {
+  color: #009b4d;
+}

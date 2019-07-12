@@ -1,0 +1,18 @@
+.cta__content {
+  width: 555px;
+}
+.cta__content form input {
+  width: 385px;
+  height: 46.8px;
+  font-size: 18px;
+  line-height: 13px;
+  padding: 18px 15px;
+  border: 1px solid rgba(43, 41, 45, 0.2);
+  box-sizing: border-box;
+}
+.cta__content form input:focus {
+  outline: none;
+}
+.cta__content form input::placeholder {
+  color: black;
+}

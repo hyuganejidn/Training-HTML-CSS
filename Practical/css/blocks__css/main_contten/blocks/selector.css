@@ -1,0 +1,18 @@
+.selector_sub > h4 {
+  color: #009b4d;
+}
+
+.selector_items {
+  display: flex;
+  align-items: stretch;
+}
+.border_btm {
+  border-bottom: 1px solid rgba(43, 41, 45, 0.15);
+}
+.selector_items:hover ~ .border_btm {
+  border-bottom: 1px solid #3142c6;
+  box-shadow: 0px 0px 0px 1.5px #3142c6;
+}
+.selector_items a:hover {
+  color: #3142c6;
+}

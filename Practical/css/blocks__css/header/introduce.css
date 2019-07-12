@@ -1,0 +1,19 @@
+.header__introduce {
+  position: relative;
+  margin-top: 80px;
+}
+.header__intro{
+  position: relative;
+  z-index: 1;
+}
+.header__introduce img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.header__title {
+  width: 754px;
+}
+.header__about {
+  width: 430px;
+}
