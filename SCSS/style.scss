@@ -1,0 +1,61 @@
+@import '_body';
+
+$font-stack: sans-serif;
+$color: #e74c3c;
+$color-after:#e67e22;
+$color-before: #3498db;
+
+%size-box{
+  width:50px;
+  height: 50px;
+  box-sizing: border-box;
+  border-radius: 50%;
+}
+%position{
+  content: '';
+  @extend %size-box;
+  position: absolute;
+  left: 0;
+  top: -3px;
+}
+
+@mixin animations($color-s, $deg) {
+  border-top: 3px solid $color-s;
+  transform: rotate($deg);
+}
+
+.loading{
+  @extend %size-box;
+  border-top: 3px solid $color;
+  position: relative;
+  animation: a1 2s linear infinite;
+  span{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    font-size: 8px;
+    text-align: center;
+    line-height: 45px;
+    animation: a2 2s linear infinite;
+  }
+  &::before{
+    @extend %position;
+    @include animations($color-before, 120deg)
+  }
+  &::after{
+    @extend %position;
+    @include animations($color-after, 240deg)
+
+  }
+}
+
+@keyframes a1 {
+  to{
+    transform: rotate(360deg)
+  }
+}
+@keyframes a2 {
+  to{
+    transform: rotate(-360deg)
+  }
+}
