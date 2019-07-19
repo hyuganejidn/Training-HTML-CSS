@@ -16,17 +16,17 @@ $color-before: #3498db;
   @extend %size-box;
   position: absolute;
   left: 0;
-  top: -3px;
+  top: -5px;
 }
 
 @mixin animations($color-s, $deg) {
-  border-top: 3px solid $color-s;
+  border-top: 5px solid $color-s;
   transform: rotate($deg);
 }
 
 .loading{
   @extend %size-box;
-  border-top: 3px solid $color;
+  border-top: 5px solid $color;
   position: relative;
   animation: a1 2s linear infinite;
   span{

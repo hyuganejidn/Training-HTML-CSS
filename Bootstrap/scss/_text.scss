@@ -1,0 +1,36 @@
+@mixin font-sizes($font-size, $line-height) {
+  font-size: $font-size;
+  line-height: $line-height;
+}
+
+@mixin width-height($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+@mixin margin-block($top, $left, $bottom) {
+  margin-top: $top;
+  margin-left: $left;
+  margin-bottom: $bottom;
+  margin-right: $right;
+}
+@mixin mg-x($left, $right) {
+  margin-left: $left;
+  margin-right: $right;
+}
+@mixin mg-y($top, $bottom) {
+  margin-top: $top;
+  margin-bottom: $bottom;
+}
+@mixin pd-x($left, $right) {
+  padding-left: $left;
+  padding-right: $right;
+}
+@mixin pd-y($top, $bottom) {
+  padding-top: $top;
+  padding-bottom: $bottom;
+}
+@mixin border-x() {
+  border-right: 1px solid #ffffff;
+  border-left: 1px solid #ffffff;
+}
