@@ -4,9 +4,13 @@ $color-topheader: #d3dde0;
 html {
   // font-size: 62.5%;
 }
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('../css/HelveticaNeueLight.ttf');
+}
 * {
   box-sizing: border-box;
-  font-family: Helvetica;
+  font-family: "Helvetica Neue";
   font-weight: 400;
 }
 .container-fluid,
@@ -112,7 +116,7 @@ html {
   }
   &__input {
     position: relative;
-    width: auto;
+    width: 100%;
     border: none;
     // @include width-height(1000px, auto);
     padding: 25px 0 25px 30px;
@@ -159,6 +163,7 @@ html {
 }
 
 .option2 {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05);
   @include pd-y(42px, 27px);
   &__title {
     text-align: center;
@@ -265,6 +270,7 @@ footer {
   }
   .option2 {
     width: auto;
+
     @include pd-y(42px, 2px);
     @include pd-x(40px, 40px);
     &__title {

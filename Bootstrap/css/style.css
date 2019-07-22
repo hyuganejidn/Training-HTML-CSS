@@ -247,9 +247,12 @@
     padding: 30px 67.5px;
     margin-bottom: 6px;
     margin-top: 0; } }
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url("../css/HelveticaNeueLight.ttf"); }
 * {
   box-sizing: border-box;
-  font-family: Helvetica;
+  font-family: "Helvetica Neue";
   font-weight: 400; }
 
 .container-fluid,
@@ -344,7 +347,7 @@
     width: 96%; }
   .search__input {
     position: relative;
-    width: auto;
+    width: 100%;
     border: none;
     padding: 25px 0 25px 30px; }
     .search__input::placeholder {
@@ -382,6 +385,7 @@
       margin: 0 35px; }
 
 .option2 {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05);
   padding-top: 42px;
   padding-bottom: 27px; }
   .option2__title {
