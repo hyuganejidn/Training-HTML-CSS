@@ -1,0 +1,16 @@
+.option {
+  width: auto;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 65px  46px 60px;
+  .option__intro {
+    margin-bottom: 45px;
+  }
+  .services {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+
+  }
+}

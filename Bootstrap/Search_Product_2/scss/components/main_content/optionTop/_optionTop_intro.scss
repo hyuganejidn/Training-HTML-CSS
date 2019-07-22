@@ -1,0 +1,35 @@
+.option__intro {
+  text-align: center;
+  .title {
+    @include font-sizes(28px, 33px);
+    margin-bottom: 3px;
+    max-width: 273px;
+  }
+  .content {
+    @include font-sizes(24px, 29px);
+    color: #636363;
+    margin-bottom: 11px;
+  }
+  
+}
+// @media only all and (min-width: 750px) {
+//   .option__intro {
+//     .title {
+//       @include font-sizes(18px, 21px);
+//       margin-bottom: 5px;
+//     }
+//     .content {
+//       @include font-sizes(14px, 17px);
+//       margin-bottom: 10px;
+//     }
+
+//     .btn {
+//       @include font-sizes(14px, 17px);
+//       border-radius: 3px;
+//       padding: 7px 33px;
+//       &-primary {
+//         background-color: #127bbe;
+//       }
+//     }
+//   }
+// }

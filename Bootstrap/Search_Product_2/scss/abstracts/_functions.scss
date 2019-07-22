@@ -1,0 +1,6 @@
+@function pxToRem( $pxConvert, $pxParentHtml: 16){
+  @return ($pxConvert/$pxParentHtml)*1rem;
+}
+@function pxToEm($pxParent, $pxConvert){
+  @return ($pxConvert/$pxParent)*1em;
+}

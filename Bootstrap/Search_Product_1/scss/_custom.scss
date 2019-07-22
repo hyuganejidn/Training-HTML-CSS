@@ -17,7 +17,7 @@ html {
 .col,
 .row,
 [class*="col-"] {
-  @include pd-x(0, 0) // border: 1px solid black;;;;;;;;;;;;;;;;;;;;;;;;;;;
+  @include pd-x(0, 0);
 }
 .row {
   @include mg-x(0, 0);
@@ -271,7 +271,7 @@ footer {
   .option2 {
     width: auto;
 
-    @include pd-y(42px, 2px);
+    @include pd-y(42px, 20px);
     @include pd-x(40px, 40px);
     &__title {
       @include font-sizes(28px, 33px);

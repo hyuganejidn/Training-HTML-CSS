@@ -1,0 +1,17 @@
+.resources {
+  &__title {
+    @include font-sizes(pxToRem(28), pxToRem(34));
+    font-weight: bold;
+    margin-bottom: 17px;
+  }
+  &__content {
+    @include font-sizes(pxToRem(24),pxToRem(29));
+    max-width: 650px;
+    width: auto;
+    margin: 0 auto;
+    color: #4A4A4A;
+  }
+}
+
+// @media only all and (min-width: 750px) {
+// }

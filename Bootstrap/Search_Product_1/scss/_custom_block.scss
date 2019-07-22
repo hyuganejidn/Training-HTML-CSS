@@ -146,19 +146,7 @@
   }
 }
 
-.navItemBottom {
-  color: #5a5956;
-  p {
-    margin-bottom: 20px;
-  }
-  li {
-    @include font-sizes(13px, 25px);
-    a {
-      text-decoration: none;
-      color: #5a5956;
-    }
-  }
-}
+
 
 @media only all and (max-width: 756px) {
   .option__intro {
