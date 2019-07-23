@@ -1,12 +1,12 @@
-.cardsItem {
+.cards__items {
   @include width-height(310px, auto);
   border: 0.56px solid $color-gray-light;
-  &__img {
+  .item__img {
     @include width-height(310px, auto);
     border-bottom: 0.56px solid $color-gray-light;
   }
 
-  &__content {
+  .items__contents {
     text-align: center;
     width: 280px;
     margin: 0 auto;
@@ -14,7 +14,6 @@
     color: #282828;
 
     .content__title {
-      @include font-sizes(pxToRem(26), pxToRem(31));
       margin-top: 14.6px;
       &-1 {
         display: none;
@@ -24,7 +23,6 @@
       }
     }
     .content__intro {
-      @include font-sizes(22px, 26px);
       color: #5a5956;
       margin: 20px 0;
     }

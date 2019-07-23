@@ -1,12 +1,10 @@
 .option__intro {
   text-align: center;
   .title {
-    @include font-sizes(28px, 33px);
     margin-bottom: 3px;
     max-width: 273px;
   }
   .content {
-    @include font-sizes(24px, 29px);
     color: #636363;
     margin-bottom: 11px;
   }

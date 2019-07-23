@@ -1,19 +1,22 @@
-.topHeader {
-
-  .color-text-header {
-    color: #ffffff;
-    text-decoration: none;
-  }
-  .right-text {
+.top-header {
+  // .nav-itemss {
+  //   @include  format-tag-a(#ffffff);
+  // }
+  .right__text {
     @include font-sizes(24px, 29px);
     @include mg-y(15px, 16px);
-    .text-right-sub:nth-child(2) {
-      @include mg-x(0, 23px);
+    .text__sub {
+      @include format-tag-a(#ffffff);
+      &:nth-child(2) {
+        // @include mg-x(0, 23px);
+        margin-right: 23px;
+      }
+      &:last-child {
+        @include mg-x(0, 17px);
+        // padding-left: 0;
+      }
     }
-    .text-right-sub:nth-child(3) {
-      @include mg-x(0, 17px);
-      padding-left: 0;
-    }
+
   }
 }
 

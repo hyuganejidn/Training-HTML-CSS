@@ -1,0 +1,15 @@
+.heading-1 {
+  @include font-sizes(pxToRem(28), pxToRem(33));
+}
+.heading-1-40 {
+  @include font-sizes(pxToRem(28), pxToRem(40));
+}
+.heading-2 {
+  @include font-sizes(pxToRem(26), pxToRem(31));
+}
+.heading-3 {
+  @include font-sizes(pxToRem(24), pxToRem(29));
+}
+.heading-4 {
+  @include font-sizes(pxToRem(22), pxToRem(26));
+}

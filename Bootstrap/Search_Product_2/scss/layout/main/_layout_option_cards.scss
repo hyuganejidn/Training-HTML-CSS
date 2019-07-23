@@ -3,16 +3,15 @@
   @include pd-y(42px, 20px);
   @include pd-x(40px, 40px);
   &__title {
-    @include font-sizes(28px, 33px);
     text-align: center;
     width: 300px;
     margin: 0 auto;
     margin-bottom: 50px;
   }
-  .cardsList {
+  .cards__list {
     flex-wrap: wrap;
-    .cardsItem:nth-child(1),
-    .cardsItem:nth-child(2) {
+    .cards__items:nth-child(1),
+    .cards__items:nth-child(2) {
       margin-bottom: 36px;
     }
   }

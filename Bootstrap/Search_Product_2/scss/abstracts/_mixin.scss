@@ -34,3 +34,7 @@
   border-right: 1px solid #ffffff;
   border-left: 1px solid #ffffff;
 }
+@mixin format-tag-a($color){
+  text-decration: none;
+  color: $color;
+}

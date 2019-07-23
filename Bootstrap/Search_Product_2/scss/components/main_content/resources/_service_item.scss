@@ -12,7 +12,6 @@
 
     }
     .item__content:nth-child(2) {
-      @include font-sizes(28px, 40px);
       margin: 0;
       .color-taga {
         color: #107bbe;

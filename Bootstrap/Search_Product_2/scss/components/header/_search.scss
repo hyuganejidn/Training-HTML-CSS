@@ -8,7 +8,6 @@
     position: relative;
     width: 98%;
     border: none;
-    @include font-sizes(24px, 29px);
     padding: 21px 0 21px 30px;
     &::placeholder {
       color: #d3dde0;
