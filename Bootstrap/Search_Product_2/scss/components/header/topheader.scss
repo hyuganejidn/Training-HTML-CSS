@@ -8,6 +8,9 @@
   .right-text {
     @include font-sizes(24px, 29px);
     @include mg-y(15px, 16px);
+    a {
+      text-decoration: none;
+    }
     a:nth-child(2) {
       @include mg-x(0, 23px);
     }

@@ -3,15 +3,18 @@
   cursor: pointer;
   @include width-height(pxToRem(170), pxToRem(250));
   &:nth-child(1) {
-    background: url("/Bootstrap/Search_Product_2/images/Rectangle.svg") no-repeat;
+    background: url("/Bootstrap/Search_Product_2/images/Rectangle.svg")
+      no-repeat;
     background-size: 300%;
   }
   &:nth-child(2) {
-    background: url("/Bootstrap/Search_Product_2/images/Rectangle1.svg") no-repeat;
+    background: url("/Bootstrap/Search_Product_2/images/Rectangle1.svg")
+      no-repeat;
     background-size: 300%;
   }
   &:nth-child(3) {
-    background: url("/Bootstrap/Search_Product_2/images/Rectangle2.svg") no-repeat;
+    background: url("/Bootstrap/Search_Product_2/images/Rectangle2.svg")
+      no-repeat;
     background-size: 300%;
   }
   &::before {
@@ -37,7 +40,6 @@
     z-index: 100;
     color: white;
     visibility: hidden;
-
   }
   &:hover .services__title {
     visibility: visible;

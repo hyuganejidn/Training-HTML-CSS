@@ -9,12 +9,13 @@
     p:nth-child(1) {
       @include font-sizes(42px, 50px);
       margin-bottom: 9px;
-      a{
-        color:  #107bbe;
+      a {
+        color: #107bbe;
       }
     }
     p:nth-child(2) {
       @include font-sizes(28px, 40px);
+      margin: 0;
     }
   }
 }
