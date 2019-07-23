@@ -1,7 +1,7 @@
 .cardsItem {
   @include width-height(310px, auto);
   border: 0.56px solid $color-gray-light;
-  img {
+  &__img {
     @include width-height(310px, auto);
     border-bottom: 0.56px solid $color-gray-light;
   }
@@ -34,7 +34,7 @@
 // @media only all and (min-width: 756px) {
 //   .cardsItem {
 //     @include width-height(252px, auto);
-//     img {
+//     &__img {
 //       @include width-height(252px, 160px);
 //       // padding: 1px 0;
 //     }

@@ -1,20 +1,16 @@
 .topHeader {
-  p {
-    margin: 0;
-  }
-  a {
+
+  .color-text-header {
     color: #ffffff;
+    text-decoration: none;
   }
   .right-text {
     @include font-sizes(24px, 29px);
     @include mg-y(15px, 16px);
-    a {
-      text-decoration: none;
-    }
-    a:nth-child(2) {
+    .text-right-sub:nth-child(2) {
       @include mg-x(0, 23px);
     }
-    a:nth-child(3) {
+    .text-right-sub:nth-child(3) {
       @include mg-x(0, 17px);
       padding-left: 0;
     }
