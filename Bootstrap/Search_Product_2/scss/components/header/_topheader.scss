@@ -1,66 +1,70 @@
 .top-header {
-  // .nav-itemss {
-  //   @include  format-tag-a(#ffffff);
-  // }
   .right__text {
     @include font-sizes(24px, 29px);
     @include mg-y(15px, 16px);
     .text__sub {
       @include format-tag-a(#ffffff);
       &:nth-child(2) {
-        // @include mg-x(0, 23px);
         margin-right: 23px;
       }
       &:last-child {
         @include mg-x(0, 17px);
-        // padding-left: 0;
       }
     }
-
   }
 }
 
-// @media only all and (min-width: 756px) {
-//   .topHeader {
-//     .rectangle {
-//       width: 22px;
-//       height: 22px;
-//       border-radius: 1.6px;
-//       background: #ffffff;
-//     }
-//     .left-text {
-//       @include font-sizes(13px, 16px);
-//       color: #ffffff;
-//       p {
-//         @include mg-x(10px, 10px);
-//       }
-//     }
-//     .right-text {
-//       @include font-sizes(14px, 17px);
-//       @include mg-y(11px, 12px);
-//       p:nth-child(1) {
-//         @include pd-x(0, 10px);
-//         border-right: 1px solid #ffffff;
-//       }
-//       p:nth-child(2) {
-//       @include pd-x(10px, 10px);
-
-//         @include mg-x(0, 13px);
-//       }
-//       p:nth-child(3) {
-//         position: relative;
-//         padding-left: 18px;
-//         margin-left: 10px;
-//         &::before {
-//           content: "";
-//           position: absolute;
-//           top: 0;
-//           left: 0px;
-//           width: 15px;
-//           height: 15px;
-//           background-image: url("../icons/world.svg");
-//         }
-//       }
-//     }
-//   }
-// }
+@media only all and (min-width: 750px) {
+  .top-header {
+    .rectangle {
+      width: 22px;
+      height: 22px;
+      border-radius: 1.6px;
+      background: #ffffff;
+    }
+    .left__text {
+      @include font-sizes(13px, 16px);
+      .rectangle_social {
+        @include format-tag-a(#ffffff);
+        @include mg-x(10px, 10px);
+      }
+    }
+    .right__text {
+      display: flex;
+      align-items: center;
+      @include mg-y(11px, 12px);
+      .text__sub {
+        @include font-sizes(14px, 17px);
+        &:nth-child(1) {
+          @include pd-x(0, 10px);
+          border-right: 1px solid #ffffff;
+        }
+        &:nth-child(2) {
+          @include pd-x(10px, 10px);
+          @include mg-x(0, 13px);
+          border-right: 1px solid #ffffff;
+        }
+        &:nth-child(3) {
+          position: relative;
+          padding-left: 18px;
+          margin-right: 0;
+          &::before {
+            content: "";
+            position: absolute;
+            top: 2px;
+            left: 0px;
+            width: 15px;
+            height: 15px;
+            background-image: url("../icons/world.svg");
+          }
+        }
+      }
+      // .icon_word {
+      //   width: 15px;
+      //   height: 15px;
+      //   padding: 0;
+      //   margin:0;
+      // }
+    }
+  }
+}

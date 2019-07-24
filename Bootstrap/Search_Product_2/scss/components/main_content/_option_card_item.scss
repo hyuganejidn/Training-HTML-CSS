@@ -1,18 +1,15 @@
 .cards__items {
   @include width-height(310px, auto);
   border: 0.56px solid $color-gray-light;
-  .item__img {
+  .items__img {
     @include width-height(310px, auto);
     border-bottom: 0.56px solid $color-gray-light;
   }
-
   .items__contents {
     text-align: center;
     width: 280px;
     margin: 0 auto;
-    // padding: 0 15px;
     color: #282828;
-
     .content__title {
       margin-top: 14.6px;
       &-1 {
@@ -29,33 +26,33 @@
   }
 }
 
-// @media only all and (min-width: 756px) {
-//   .cardsItem {
-//     @include width-height(252px, auto);
-//     &__img {
-//       @include width-height(252px, 160px);
-//       // padding: 1px 0;
-//     }
-//     &__content {
-//       width: 200px;
-//       padding: 15px 0;
-//       .content__title {
-//         @include font-sizes(14.4px, 17px);
-//         color: #282828;
-//         height: 34px;
-//         margin-top: 0;
-//         margin-bottom: 9px;
-//         &-1 {
-//           display: inline-block;
-//         }
-//         &-2 {
-//           display: none;
-//         }
-//       }
-//       .content__intro {
-//         @include font-sizes(12px, 14px);
-//         margin-bottom: 12px;
-//       }
-//     }
-//   }
-// }
+@media only all and (min-width: 750px) {
+  .cards__items {
+    @include width-height(252px, auto);
+    .items__img {
+      @include width-height(252px, 160px);
+      // padding: 1px 0;
+    }
+    .items__contents {
+      width: 200px;
+      padding: 15px 0;
+      .content__title {
+        @include font-sizes(14.4px, 17px);
+        color: #282828;
+        height: 34px;
+        margin-top: 0;
+        margin-bottom: 9px;
+        &-1 {
+          display: inline-block;
+        }
+        &-2 {
+          display: none;
+        }
+      }
+      .content__intro {
+        @include font-sizes(12px, 14px);
+        margin-bottom: 12px;
+      }
+    }
+  }
+}

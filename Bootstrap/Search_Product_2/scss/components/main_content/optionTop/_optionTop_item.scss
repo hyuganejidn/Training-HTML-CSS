@@ -3,17 +3,17 @@
   cursor: pointer;
   @include width-height(pxToRem(170), pxToRem(250));
   &:nth-child(1) {
-    background: url("/Bootstrap/Search_Product_2/images/Rectangle.svg")
+    background: url("/Bootstrap/Search_Product_2/images/Rectangle\ 114\ \(1\).png")
       no-repeat;
     background-size: 300%;
   }
   &:nth-child(2) {
-    background: url("/Bootstrap/Search_Product_2/images/Rectangle1.svg")
+    background: url("/Bootstrap/Search_Product_2/images/Rectangle\ 114\ \(2\).png")
       no-repeat;
     background-size: 300%;
   }
   &:nth-child(3) {
-    background: url("/Bootstrap/Search_Product_2/images/Rectangle2.svg")
+    background: url("/Bootstrap/Search_Product_2/images/Rectangle\ 114\ \(3\).png")
       no-repeat;
     background-size: 300%;
   }
@@ -44,19 +44,19 @@
     visibility: visible;
   }
 }
-// @media only all and (min-width: 756px) {
-//   .services__items {
-//     @include width-height(pxToRem(250), pxToRem(150));
-//     &:nth-child(1),
-//     &:nth-child(2),
-//     &:nth-child(3) {
-//       background-size: 100%;
-//     }
-//     &::before {
-//       @include width-height(250px, 150px);
-//     }
-//     .services__title {
-//       @include font-sizes(18px, 21px);
-//     }
-//   }
-// }
+@media only all and (min-width: 756px) {
+  .services__items {
+    @include width-height(pxToRem(250), pxToRem(150));
+    &:nth-child(1),
+    &:nth-child(2),
+    &:nth-child(3) {
+      background-size: 100%;
+    }
+    &::before {
+      @include width-height(250px, 150px);
+    }
+    .services__title {
+      @include font-sizes(18px, 21px);
+    }
+  }
+}

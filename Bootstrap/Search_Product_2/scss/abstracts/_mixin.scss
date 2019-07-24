@@ -34,7 +34,10 @@
   border-right: 1px solid #ffffff;
   border-left: 1px solid #ffffff;
 }
-@mixin format-tag-a($color){
-  text-decration: none;
+@mixin format-tag-a($color) {
+  text-decoration: none;
   color: $color;
+  // &:focus {
+  //   text-decoration: none;
+  // }
 }

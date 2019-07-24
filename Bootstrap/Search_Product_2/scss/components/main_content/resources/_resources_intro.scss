@@ -7,9 +7,32 @@
     max-width: 650px;
     width: auto;
     margin: 0 auto;
-    color: #4A4A4A;
+    color: #4a4a4a;
   }
 }
 
-// @media only all and (min-width: 750px) {
-// }
+@media only all and (min-width: 750px) {
+  .resources {
+    &__intro {
+      text-align: center;
+    }
+    .heading-1 {
+      @include font-sizes(24px, 29px);
+    }
+    .heading-3 {
+      @include font-sizes(14px, 17px);
+    }
+    &__title {
+      font-weight: bold;
+      max-width: 687px;
+      width: auto;
+      margin-bottom: 22px;
+    }
+    &__content {
+      max-width: 400px;
+      text-align: center;
+      margin: 0 auto;
+      margin-bottom: 50px;
+    }
+  }
+}

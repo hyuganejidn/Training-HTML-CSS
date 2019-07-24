@@ -1,6 +1,7 @@
 .btns-bs {
   border-radius: 6px;
   padding: 15px 66px;
+  background: #127bbe;
   &:focus {
     outline: none;
   }
@@ -17,16 +18,22 @@
 .btns-view-large {
   @include font-sizes(32px, 38px);
   // font-weight: bold;
-  background: #F1F4F5;
+  background: #f1f4f5;
   margin: 0 auto;
   padding: 30px 67px;
   border: 3px solid #127bbe;
 }
 
-// @media only all and (min-width: 750px) {
-//   .btns__view {
-//     @include font-sizes(10.8px, 13px);
-//     border: 0.7744px solid #127bbe;
-//     padding: 10px 31px;
-//   }
-// }
+@media only all and (min-width: 750px) {
+  .btns-view {
+    @include font-sizes(10.8px, 13px);
+    border: 0.7744px solid #127bbe;
+    padding: 10px 31px;
+  }
+  .btns-view-large {
+    @include font-sizes(16px, 19px);
+    border: 1.5px solid #127bbe;
+    padding: 15px 34px;
+    margin-top: 55px;
+  }
+}

@@ -1,15 +1,24 @@
-// @media only all and (min-width: 750px) {
-//   .navItemBottom {
-//     color: $color-gray-light;
-//     p {
-//       margin-bottom: 20px;
-//     }
-//     li {
-//       @include font-sizes(13px, 25px);
-//       a {
-//         text-decoration: none;
-//         color: $color-gray-light;
-//       }
-//     }
-//   }
-// }
+@media only all and (min-width: 750px) {
+  .navigation {
+    color: $color-gray-light-1;
+    &__item {
+      .naviitem__title {
+      }
+      .naviitem__list {
+        padding-left: 0;
+      }
+      p {
+        margin-bottom: 20px;
+      }
+      li {
+        list-style-type: none;
+        a {
+          @include font-sizes(13px, 25px);
+
+          text-decoration: none;
+          color: $color-gray-light-1;
+        }
+      }
+    }
+  }
+}

@@ -1,39 +1,27 @@
 .header__menu {
-  width: auto;
-  background: #f5f6f7;
   .navbar-pd {
     padding: 13px 20px;
     .nav-link-pd {
       @include font-sizes(18px, 24px);
       color: #636363;
-      padding-left: 0px;
-      @include pd-y(10px, 0);
-    }
-    &-collapse-position {
-      justify-content: flex-end;
+      padding: 0;
     }
   }
 }
 
-// @media only all and (min-width: 750px){
-//   .header {
-//     .navbar {
-//       &-brand {
-//         padding: 0px;
-//       }
-//       &-nav {
-//         @include font-sizes(14px, 17px);
-//         .nav-link {
-//           @include pd-x(40px, 0);
-//           @include pd-y(0, 0);
-//         }
-//       }
-//       &-collapse {
-//         justify-content: flex-end;
-//         a {
-//           color: #636363;
-//         }
-//       }
-//     }
-//   }
-// }
+@media only all and (min-width: 750px) {
+  .header__menu {
+    .navbar-pd {
+      padding: 22px 0;
+      .navbar-collapse-position {
+        justify-content: flex-end;
+      }
+      .navbar-nav-modify {
+        .nav-link-pd {
+          @include font-sizes(14px, 17px);
+          @include pd-x(40px, 0);
+        }
+      }
+    }
+  }
+}

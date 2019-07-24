@@ -1,4 +1,14 @@
 .header__menu {
-  .navbar {
+  width: auto;
+  .navbar-pd {
+    .navbar-nav-modify {
+    }
+  }
+}
+
+@media only all and (min-width: 750px) {
+  .header__menu {
+    max-width: 1080px;
+    margin: 0 auto;
   }
 }

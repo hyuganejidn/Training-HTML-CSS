@@ -1,15 +1,32 @@
 .option {
   width: auto;
+  display: flex;
   flex-direction: column;
   align-items: center;
+  // flex-wrap: wrap;
   padding: 40px 65px 46px 60px;
   .option__intro {
     margin-bottom: 45px;
+    // display: inline-block;
   }
   .services {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
+  }
+}
+@media only all and (min-width: 750px) {
+  .option {
+    max-width: 1080px;
+    margin: 0 auto;
+    flex-direction: row;
+    padding: 17px 0;
+    .option__intro {
+      margin: 0;
+      margin-right: 82px;
+    }
+    .services__items {
+    }
   }
 }
