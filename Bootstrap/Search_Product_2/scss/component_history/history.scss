@@ -32,7 +32,7 @@
         &:hover {
           background: #137bbe;
         }
-        &:hover .items__dotline::before {
+        &:hover + .items__dotline::before {
           background: #137bbe;
         }
       }
