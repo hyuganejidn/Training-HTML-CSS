@@ -29,8 +29,10 @@
     }
     &__item {
       @include width-height(300px, 180px);
+      margin-top: 0;
       .item__title:nth-child(1) {
         @include font-sizes(24px, 29px);
+
         margin-bottom: 25px;
         a {
           color: #2f8bc5;
