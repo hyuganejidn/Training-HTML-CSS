@@ -46,18 +46,6 @@ function main() {
 // console.log(bar());
 // console.log(main());
 
-var result = [];
-var i
-for ( i = 0; i < 5; i++) {
-  result[i] = function() {
-    console.log(i);
-  };
-}
-result[0]();
-result[1]();
-result[2]();
-result[3]();
-result[4]();
 
 var name = "Michael Jackson";
 function showOrdinaryPersonName () {
@@ -67,7 +55,7 @@ function showOrdinaryPersonName () {
 function showCelebrityName () {
   console.log (name);
 }
-showCelebrityName ();
+// showCelebrityName ();
 
 
 var user = {
@@ -154,7 +142,7 @@ var ngocTrinh = new Wife("Ngoc", "Trinh");
 // Wife.prototype = {ay: 1}
 var wife = new Wife();
 for (let skill in ngocTrinh.__proto__) {
-  // console.log(skill);
+  console.log(skill);
 }
 // console.log("+++++++++++");
 // console.log(wife.__proto__);
@@ -164,8 +152,8 @@ for (let skill in ngocTrinh.__proto__) {
 
 // console.log(ngocTrinh.__proto__)
 // console.log(ngocTrinh.__proto__.ay === ngocTrinh.ay);
-console.log(ngocTrinh.__proto__);
-console.log(Wife.__proto__.__proto__);
+// console.log(ngocTrinh.__proto__);
+// console.log(Wife.__proto__.__proto__);
 // console.log(Wife.prototype.karaoke());
 // console.log(wife);
 // console.log(new Wife);
