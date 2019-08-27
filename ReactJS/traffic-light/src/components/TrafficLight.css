@@ -1,0 +1,21 @@
+.TrafficLight .buld {
+  /* display: inline-block; */
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  opacity: 0.2;
+  margin: 10px;
+}
+
+.TrafficLight .buld.blue {
+  background: blue;
+}
+.TrafficLight .buld.red {
+  background: red;
+}
+.TrafficLight .buld.yellow {
+  background: yellow;
+}
+.active {
+  opacity: 1 !important;
+}

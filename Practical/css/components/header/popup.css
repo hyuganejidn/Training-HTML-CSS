@@ -23,9 +23,7 @@
   border-right: 15px solid transparent;
   border-bottom: 20px solid white;
 }
-.header__items--position:hover .header__popup {
-  visibility: visible;
-}
+
 .popup_items {
   list-style-type: none;
   width: 262px;

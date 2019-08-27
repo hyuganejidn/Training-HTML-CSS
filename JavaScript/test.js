@@ -4,6 +4,7 @@ var loopingTriangle = n => {
   for (let triangle = "#"; triangle.length <= n; triangle += "#")
     console.log(triangle);
 };
+
 // loopingTriangle(10);
 // FizzBuzz
 fizzBuzz = function() {
@@ -27,6 +28,7 @@ function chessBroard(n) {
     board += "\n";
   }
 }
+
 var x = 10;
 function foo() {
   var y = x + 5;

@@ -18,6 +18,9 @@
 .header__items--position {
   position: relative;
 }
+.header__items--position:hover .header__popup {
+  visibility: visible;
+}
 .iteams__hover {
   position: absolute;
   height: 50px;
